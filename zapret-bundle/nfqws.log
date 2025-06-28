@@ -1,0 +1,59 @@
+29.06.2025 01:02:53 : www.googleadservices.com : profile 4 : client 192.168.10.4:62806 : proto tls : retrans threshold reached
+29.06.2025 01:02:53 : www.googleadservices.com : profile 4 : client 192.168.10.4:62806 : proto tls : fail counter 1/3
+29.06.2025 01:03:10 : www.googleadservices.com : profile 4 : client 192.168.10.4:62834 : proto tls : retrans threshold reached
+29.06.2025 01:03:10 : www.googleadservices.com : profile 4 : client 192.168.10.4:62834 : proto tls : fail counter 2/3
+29.06.2025 01:03:11 : www.googleadservices.com : profile 4 : client 192.168.10.4:62835 : proto tls : retrans threshold reached
+29.06.2025 01:03:11 : www.googleadservices.com : profile 4 : client 192.168.10.4:62835 : proto tls : fail counter 3/3
+29.06.2025 01:03:11 : www.googleadservices.com : profile 4 : client 192.168.10.4:62835 : proto tls : adding to C:\Users\kotrik\Desktop\kotrik zapret scripts\files\auto.list
+29.06.2025 01:12:18 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:63500 : proto tls : incoming RST
+29.06.2025 01:12:18 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:63500 : proto tls : fail counter 1/3
+29.06.2025 01:12:19 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:63501 : proto tls : retrans threshold reached
+29.06.2025 01:12:19 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:63501 : proto tls : fail counter 2/3
+29.06.2025 01:15:36 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:50251 : proto tls : retrans threshold reached
+29.06.2025 01:15:36 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:50251 : proto tls : fail counter 1/3
+29.06.2025 01:15:37 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:50255 : proto tls : retrans threshold reached
+29.06.2025 01:15:37 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:50255 : proto tls : fail counter 2/3
+29.06.2025 01:15:38 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:50270 : proto tls : retrans threshold reached
+29.06.2025 01:15:38 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:50270 : proto tls : fail counter 3/3
+29.06.2025 01:15:38 : opggfordesktop.zendesk.com : profile 4 : client 192.168.10.4:50270 : proto tls : adding to C:\Users\kotrik\Desktop\kotrik zapret scripts\files\auto.list
+29.06.2025 01:16:28 : detectportal.firefox.com : profile 3 : client 192.168.10.4:50308 : proto http : retrans threshold reached
+29.06.2025 01:16:28 : detectportal.firefox.com : profile 3 : client 192.168.10.4:50308 : proto http : fail counter 1/3
+29.06.2025 01:16:29 : o.pki.goog : profile 3 : client 192.168.10.4:50316 : proto http : retrans threshold reached
+29.06.2025 01:16:29 : o.pki.goog : profile 3 : client 192.168.10.4:50316 : proto http : fail counter 1/3
+29.06.2025 01:18:49 : pbs.twimg.com : profile 4 : client 192.168.10.4:50501 : proto tls : retrans threshold reached
+29.06.2025 01:18:49 : pbs.twimg.com : profile 4 : client 192.168.10.4:50501 : proto tls : fail counter 1/3
+29.06.2025 01:18:49 : rutracker.net : profile 4 : client 192.168.10.4:50508 : proto tls : retrans threshold reached
+29.06.2025 01:18:49 : rutracker.net : profile 4 : client 192.168.10.4:50508 : proto tls : fail counter 1/3
+29.06.2025 01:18:50 : video.twimg.com : profile 4 : client 192.168.10.4:50514 : proto tls : retrans threshold reached
+29.06.2025 01:18:50 : video.twimg.com : profile 4 : client 192.168.10.4:50514 : proto tls : fail counter 1/3
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50513 : proto tls : retrans threshold reached
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50513 : proto tls : fail counter 2/3
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50510 : proto tls : retrans threshold reached
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50510 : proto tls : fail counter 3/3
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50510 : proto tls : adding to C:\Users\kotrik\Desktop\kotrik zapret scripts\files\auto.list
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50512 : proto tls : retrans threshold reached
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50512 : proto tls : fail counter 1/3
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50511 : proto tls : retrans threshold reached
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50511 : proto tls : fail counter 2/3
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50515 : proto tls : retrans threshold reached
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50515 : proto tls : fail counter 3/3
+29.06.2025 01:18:50 : pbs.twimg.com : profile 4 : client 192.168.10.4:50515 : proto tls : NOT adding, duplicate detected
+29.06.2025 01:18:51 : video.twimg.com : profile 4 : client 192.168.10.4:50517 : proto tls : retrans threshold reached
+29.06.2025 01:18:51 : video.twimg.com : profile 4 : client 192.168.10.4:50517 : proto tls : fail counter 2/3
+29.06.2025 01:18:51 : video.twimg.com : profile 4 : client 192.168.10.4:50518 : proto tls : retrans threshold reached
+29.06.2025 01:18:51 : video.twimg.com : profile 4 : client 192.168.10.4:50518 : proto tls : fail counter 3/3
+29.06.2025 01:18:51 : video.twimg.com : profile 4 : client 192.168.10.4:50518 : proto tls : adding to C:\Users\kotrik\Desktop\kotrik zapret scripts\files\auto.list
+29.06.2025 01:18:57 : static.rutracker.cc : profile 4 : client 192.168.10.4:50524 : proto tls : retrans threshold reached
+29.06.2025 01:18:57 : static.rutracker.cc : profile 4 : client 192.168.10.4:50524 : proto tls : fail counter 1/3
+29.06.2025 01:18:57 : static.rutracker.cc : profile 4 : client 192.168.10.4:50526 : proto tls : retrans threshold reached
+29.06.2025 01:18:57 : static.rutracker.cc : profile 4 : client 192.168.10.4:50526 : proto tls : fail counter 2/3
+29.06.2025 01:18:57 : static.rutracker.cc : profile 4 : client 192.168.10.4:50525 : proto tls : retrans threshold reached
+29.06.2025 01:18:57 : static.rutracker.cc : profile 4 : client 192.168.10.4:50525 : proto tls : fail counter 3/3
+29.06.2025 01:18:57 : static.rutracker.cc : profile 4 : client 192.168.10.4:50525 : proto tls : adding to C:\Users\kotrik\Desktop\kotrik zapret scripts\files\auto.list
+29.06.2025 01:21:20 : o.pki.goog : profile 3 : client 192.168.10.4:50699 : proto http : retrans threshold reached
+29.06.2025 01:21:20 : o.pki.goog : profile 3 : client 192.168.10.4:50699 : proto http : fail counter 1/3
+29.06.2025 01:21:20 : o.pki.goog : profile 3 : client 192.168.10.4:50701 : proto http : retrans threshold reached
+29.06.2025 01:21:20 : o.pki.goog : profile 3 : client 192.168.10.4:50701 : proto http : fail counter 2/3
+29.06.2025 01:21:20 : o.pki.goog : profile 3 : client 192.168.10.4:50700 : proto http : retrans threshold reached
+29.06.2025 01:21:20 : o.pki.goog : profile 3 : client 192.168.10.4:50700 : proto http : fail counter 3/3
+29.06.2025 01:21:20 : o.pki.goog : profile 3 : client 192.168.10.4:50700 : proto http : adding to C:\Users\kotrik\Desktop\kotrik zapret scripts\files\auto.list
