@@ -11,8 +11,8 @@ set HOSTLIST_EXCLUDE=--hostlist-exclude="%BASE%files\exclude.list"
 set ZAPRET_HOSTLISTS=%HOSTLIST_USER% %HOSTLIST_AUTO% %HOSTLIST_DEBUG% %HOSTLIST_EXCLUDE%
 
 start "zapret: http,https,quic" "%BASE%winws.exe" ^
---wf-tcp=80,443 --wf-udp=443,50000-50099,5065,5066,5068 ^
---filter-udp=50000-50099,5065,5066,5068 --filter-l7=discord,stun %ZAPRET_ARGS_UDP% --new ^
+--wf-tcp=80,443 --wf-udp=443,50000-50099,5055,5056,5058 ^
+--filter-udp=50000-50099,5055,5056,5058 --filter-l7=discord,stun %ZAPRET_ARGS_UDP% --new ^
 --filter-udp=443 --dpi-desync=fake --dpi-desync-repeats=11 --dpi-desync-fake-quic="%BASE%files\quic_initial.bin" --new ^
 --filter-tcp=80 --dpi-desync=fake,fakedsplit --dpi-desync-autottl=2 --dpi-desync-fooling=md5sig %ZAPRET_HOSTLISTS% --new ^
 --filter-tcp=443 %ZAPRET_ARGS% %ZAPRET_HOSTLISTS%

@@ -1,4 +1,4 @@
-# zapret
+zapret
 ---
 Форк построенный на основе `nfqws-keenetic` и `zapret-win-bundle`
 
