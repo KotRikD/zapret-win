@@ -1,6 +1,6 @@
 set "BASE=%~dp0"
 
-set ZAPRET_ARGS=--dpi-desync=fake,split2 --dpi-desync-split-seqovl=681 --dpi-desync-split-pos=1 --dpi-desync-fooling=badseq --dpi-desync-repeats=8 --dpi-desync-split-seqovl-pattern="%BASE%files\tls_clienthello_www_google_com.bin" --dpi-desync-fake-tls-mod=rnd,dupsid,sni=www.google.com
+set ZAPRET_ARGS=--dpi-desync=fakedsplit --dpi-desync-split-pos=1 --dpi-desync-ttl=0 --dpi-desync-repeats=16 --dpi-desync-fooling=md5sig --dpi-desync-fake-tls-mod=padencap --dpi-desync-fake-tls="%BASE%files\tls_clienthello.bin"
 set ZAPRET_ARGS_UDP=--dpi-desync=fake --dpi-desync-repeats=6
 
 set HOSTLIST_USER=--hostlist="%BASE%files\user.list"
