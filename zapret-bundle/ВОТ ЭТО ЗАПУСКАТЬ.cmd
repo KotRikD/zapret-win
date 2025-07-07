@@ -9,7 +9,7 @@ set HOSTLIST_AUTO=--hostlist-auto="%BASE%files\auto.list"
 set HOSTLIST_DEBUG=--hostlist-auto-debug="%BASE%nfqws.log"
 set HOSTLIST_EXCLUDE=--hostlist-exclude="%BASE%files\exclude.list"
 
-set ZAPRET_HOSTLISTS=%IPSET_AMAZON_CF% %HOSTLIST_USER% %HOSTLIST_AUTO% %HOSTLIST_DEBUG% %HOSTLIST_EXCLUDE%
+set ZAPRET_HOSTLISTS=%HOSTLIST_USER% %HOSTLIST_AUTO% %HOSTLIST_DEBUG% %HOSTLIST_EXCLUDE%
 
 start "zapret: http,https,quic" "%BASE%winws.exe" ^
 --wf-tcp=80,443,2099 --wf-udp=443,50000-50099,5055,5056,5058 ^
