@@ -1,6 +1,6 @@
 set "BASE=%~dp0"
 
-set ZAPRET_ARGS=--dpi-desync=fakedsplit --dpi-desync-split-pos=1 --dpi-desync-ttl=0 --dpi-desync-repeats=16 --dpi-desync-fooling=md5sig --dpi-desync-fake-tls-mod=padencap --dpi-desync-fake-tls="%BASE%files\tls_clienthello.bin"
+set ZAPRET_ARGS=--dpi-desync=fake,multidisorder --dpi-desync-split-pos=7,sld+1 --dpi-desync-fake-tls=0x0F0F0F0F --dpi-desync-fake-tls="%BASE%files\tls_clienthello.bin" --dpi-desync-fake-tls-mod=rnd,dupsid,sni=fonts.google.com --dpi-desync-fooling=badseq --dpi-desync-autottl 2:2-12
 set ZAPRET_ARGS_UDP=--dpi-desync=fake --dpi-desync-repeats=6
 
 set IPSET_AMAZON_CF=--ipset="%BASE%files\amazon_cf.ipset.list"
