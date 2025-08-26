@@ -14,10 +14,10 @@ set HOSTLIST_EXCLUDE=--hostlist-exclude="%BASE%files\exclude.list"
 set ZAPRET_HOSTLISTS=%HOSTLIST_USER% %HOSTLIST_AUTO% %HOSTLIST_DEBUG% %HOSTLIST_EXCLUDE%
 
 start "zapret: http,https,quic" "%BASE%winws.exe" ^
---wf-tcp=80,443,2099,2096,2087 --wf-udp=443,19300-19400,50000-65535,5055,5056,5058 ^
+--wf-tcp=80,443,2000-3000 --wf-udp=443,19300-19400,50000-65535,5055,5056,5058 ^
 --comment "VRChat (Photon)"        --filter-udp=5055,5056,5058 %ZAPRET_ARGS_UDP% --new ^
 --comment "Discord (STUN/WebRTC)"  --filter-udp=19300-19400,50000-65535 --filter-l7=discord,stun %ZAPRET_ARGS_UDP_DISCORD% --new ^
 --comment "TLS/QUIC"               --filter-udp=443 %ZAPRET_ARGS_QUIC% --new ^
 --comment "HTTP"                   --filter-tcp=80 --dpi-desync=fake,fakedsplit --dpi-desync-autottl=2 --dpi-desync-fooling=md5sig %ZAPRET_HOSTLISTS% --new ^
---comment "HTTPs/TLS/Discord RTCs" --filter-tcp=443,2096,2087 %ZAPRET_ARGS% %ZAPRET_HOSTLISTS% --new ^
+--comment "HTTPs/TLS/Discord RTCs" --filter-tcp=443,2000-3000 %ZAPRET_ARGS% %ZAPRET_HOSTLISTS% --new ^
 --comment "LoL (EUNE)"             --filter-tcp=2099 %IPSET_AMAZON_CF% --dpi-desync=syndata
