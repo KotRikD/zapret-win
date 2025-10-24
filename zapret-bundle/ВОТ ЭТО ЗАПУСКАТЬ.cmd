@@ -13,7 +13,7 @@ set HOSTLIST_EXCLUDE=--hostlist-exclude="%BASE%files\exclude.list"
 
 set ZAPRET_HOSTLISTS=%HOSTLIST_USER% %HOSTLIST_AUTO% %HOSTLIST_DEBUG% %HOSTLIST_EXCLUDE%
 
-start "zapret: http,https,quic" "%BASE%winws.exe" ^
+start "zapret: http,https,quic" "%BASE%\bin\winws.exe" ^
 --wf-tcp=80,443,2000-3000 --wf-udp=443,19300-19400,50000-65535,5055,5056,5058 ^
 --comment "VRChat (Photon)"        --filter-udp=5055,5056,5058 %ZAPRET_ARGS_UDP% --new ^
 --comment "Discord (STUN/WebRTC)"  --filter-udp=19300-19400,50000-65535 --filter-l7=discord,stun %ZAPRET_ARGS_UDP_DISCORD% --new ^
