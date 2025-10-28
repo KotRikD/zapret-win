@@ -1,6 +1,8 @@
 zapret
 ---
-Форк построенный на основе `nfqws-keenetic` и `zapret-win-bundle`
+Форк построенный на основе [nfqws-keenetic](https://github.com/Anonym-tsk/nfqws-keenetic) и [zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle)
+
+Использованный сет ip адресов был взят [отсюда](https://sw.ext.io/ipset/ipset_all4.list)
 
 Для чего?
 ---
