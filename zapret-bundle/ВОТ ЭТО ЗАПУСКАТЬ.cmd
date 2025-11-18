@@ -1,9 +1,13 @@
 set "BASE=%~dp0"
 
-set ZAPRET_ARGS=--dpi-desync=fake,multisplit --dpi-desync-split-seqovl=681 --dpi-desync-split-pos=1 --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=10000000 --dpi-desync-repeats=2 --dpi-desync-split-seqovl-pattern="%BASE%files\tls_clienthello.bin" --dpi-desync-fake-tls-mod=rnd,dupsid,sni=fonts.google.com
+:: Подгружаем HTTPs стратегию
+call "%BASE%files\load_https_strategy.cmd"
+
+:: Ставим стандартный набор стратегий
 set ZAPRET_ARGS_UDP=--dpi-desync=fake --dpi-desync-autottl=2 --dpi-desync-repeats=10 --dpi-desync-any-protocol=1 --dpi-desync-fake-unknown-udp="%BASE%files\quic_initial.bin" --dpi-desync-cutoff=n2
 set ZAPRET_ARGS_QUIC=--dpi-desync=fake --dpi-desync-repeats=11 --dpi-desync-fake-quic="%BASE%files\quic_initial.bin"
 
+:: Здесь вообщем набор файлов, нужный для автолиста
 set IPSET=--ipset="%BASE%files\ipset.list"
 set HOSTLIST_USER=--hostlist="%BASE%files\user.list"
 set HOSTLIST_AUTO=--hostlist-auto="%BASE%files\auto.list"
@@ -21,4 +25,4 @@ start "zapret: http,https,quic" "%BASE%\bin\winws.exe" ^
 --comment "IPSET"                  %IPSET% --ipset-ip=0.0.0.0 --new ^
 --comment "HTTP"                   --filter-tcp=80 --dpi-desync=fake,fakedsplit --dpi-desync-autottl=2 --dpi-desync-fooling=md5sig %ZAPRET_HOSTLISTS%
 
-
+ 
