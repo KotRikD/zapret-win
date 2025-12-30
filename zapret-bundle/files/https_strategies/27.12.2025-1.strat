@@ -1,1 +1,1 @@
---dpi-desync=hostfakesplit --dpi-desync-hostfakesplit-mod=host=google.com --dpi-desync-hostfakesplit-mod=altorder=0 --dpi-desync-hostfakesplit-midhost=host-2 --ip-id=seqgroup --dpi-desync-fooling=md5sig,badsum,badseq --dpi-desync-badseq-increment=0
+--dpi-desync=hostfakesplit --dpi-desync-hostfakesplit-mod=host=fonts.google.com --dpi-desync-hostfakesplit-mod=altorder=0 --dpi-desync-hostfakesplit-midhost=host-2 --ip-id=seqgroup --dpi-desync-fooling=md5sig,badsum,badseq --dpi-desync-badseq-increment=0
