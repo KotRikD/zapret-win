@@ -1,1 +1,0 @@
---dpi-desync=fake,multisplit --dpi-desync-split-seqovl=681 --dpi-desync-split-pos=1 --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=10000000 --dpi-desync-repeats=2 --dpi-desync-split-seqovl-pattern="%BASE%files\tls_clienthello.bin" --dpi-desync-fake-tls-mod=rnd,dupsid,sni=fonts.google.com

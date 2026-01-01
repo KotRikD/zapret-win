@@ -1,1 +1,0 @@
---dpi-desync=multisplit --ip-id=zero --dpi-desync-split-seqovl=652 --dpi-desync-split-pos=2 --dpi-desync-split-seqovl-pattern="%BASE%files\tls_clienthello.bin" --dpi-desync-repeats=13

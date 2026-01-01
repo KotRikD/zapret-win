@@ -1,0 +1,1 @@
+--dpi-desync=fake,multisplit --dpi-desync-split-seqovl=654 --dpi-desync-split-pos=1 --dpi-desync-fooling=ts --dpi-desync-repeats=8 --dpi-desync-split-seqovl-pattern="%BASE%files\tls_clienthello.bin" --dpi-desync-fake-tls="%BASE%files\tls_clienthello.bin"

@@ -1,0 +1,1 @@
+--dpi-desync=fake --dpi-desync-repeats=6 --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=2 --dpi-desync-fake-tls="%BASE%files\tls_clienthello.bin"
