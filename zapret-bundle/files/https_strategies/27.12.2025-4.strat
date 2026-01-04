@@ -1,1 +1,0 @@
---dpi-desync=fake,multisplit --dpi-desync-fake-tls=0x00000000 --dpi-desync-split-pos=1,midsld --dpi-desync-repeats=2 --dpi-desync-fooling=badseq --dpi-desync-fake-tls-mod=none --dpi-desync-fake-tls="%BASE%files\tls_clienthello.bin" --dpi-desync-fake-tls-mod=rnd,dupsid,sni=bing.com

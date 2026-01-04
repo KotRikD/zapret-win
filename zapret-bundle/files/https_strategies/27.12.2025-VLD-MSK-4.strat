@@ -1,0 +1,1 @@
+--dpi-desync=fake --dpi-desync-split-pos=1 --dpi-desync-fooling=ts --dpi-desync-repeats=1 --dpi-desync-fake-tls="%BASE%files\tls_clienthello_vkdev.bin" --dpi-desync-fake-tls-mod=rnd,dupsid,sni=fonts.google.com

@@ -1,0 +1,1 @@
+--dpi-desync=hostfakesplit --dpi-desync-hostfakesplit-mod=host=fonts.google.com --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=host+1 --ip-id=seq --dpi-desync-split-seqovl=sniext+3 --dpi-desync-split-seqovl-pattern="%BASE%files\tls_clienthello_vkdev.bin" --dpi-desync-fooling=md5sig,badsum,badseq --dpi-desync-badseq-increment=0

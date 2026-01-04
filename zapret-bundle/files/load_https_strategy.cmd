@@ -1,6 +1,6 @@
 @echo off
-setlocal enabledelayedexpansion
-chcp 65001
+setlocal DisableDelayedExpansion
+chcp 65001 > nul
 
 set "ACTIVE_FILE=%~dp0https_strategies\active"
 
@@ -11,12 +11,8 @@ if not exist "%ACTIVE_FILE%" (
 
 set "ZAPRET_ARGS="
 
-for /f "delims=" %%a in ('type "%ACTIVE_FILE%"') do (
-    if defined ZAPRET_ARGS (
-        call set "ZAPRET_ARGS=%%ZAPRET_ARGS%% %%a"
-    ) else (
-        call set "ZAPRET_ARGS=%%a"
-    )
+for /f "usebackq delims=" %%a in ("%ACTIVE_FILE%") do (
+    call set "ZAPRET_ARGS=%%a"
 )
 
 endlocal & set "ZAPRET_ARGS=%ZAPRET_ARGS%"

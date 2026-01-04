@@ -1,7 +1,11 @@
+@echo off
 set "BASE=%~dp0"
 
 :: Подгружаем HTTPs стратегию
 call "%BASE%files\load_https_strategy.cmd"
+
+:: Fix TCP меток
+call "%BASE%files\ts_timestamps_enabler.cmd"
 
 :: Ставим стандартный набор стратегий
 set ZAPRET_ARGS_UDP=--dpi-desync=fake --dpi-desync-autottl=2 --dpi-desync-repeats=10 --dpi-desync-any-protocol=1 --dpi-desync-fake-unknown-udp="%BASE%files\quic_initial.bin" --dpi-desync-cutoff=n2

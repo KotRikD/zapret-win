@@ -1,0 +1,1 @@
+--dpi-desync=fake,multisplit --dpi-desync-split-pos=1 --ip-id=seqgroup --dpi-desync-fooling=ts,badsum --dpi-desync-repeats=2 --dpi-desync-fake-tls="%BASE%files\tls_clienthello_vkdev.bin" --dpi-desync-fake-tls-mod=rnd,dupsid,sni=fonts.google.com
