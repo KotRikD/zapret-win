@@ -1,0 +1,1 @@
+--dpi-desync=fake --dpi-desync-repeats=6 --dpi-desync-fooling=ts --dpi-desync-fake-tls="%BASE%files\tls_clienthello_vkdev.bin"
